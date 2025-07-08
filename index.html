@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rasoi Roots - Home</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff8f0; }
+        header { background: #d2691e; color: white; padding: 1em 0; text-align: center; }
+        .container { width: 90%; max-width: 1000px; margin: 2em auto; }
+        .products { display: flex; flex-wrap: wrap; gap: 2em; }
+        .product { background: white; border-radius: 8px; box-shadow: 0 0 10px #eee; padding: 1em; width: 300px; }
+        .product img { width: 100%; height: 150px; object-fit: cover; border-radius: 4px; }
+        .product h3 { margin: 0.5em 0 0.2em 0; }
+        .product p { margin: 0.2em 0; }
+        .product .price { font-weight: bold; color: #d2691e; }
+        .product input[type="number"] { width: 60px; }
+        .add-cart { background: #d2691e; color: white; border: none; padding: 0.5em 1em; border-radius: 5px; cursor: pointer; }
+        nav { text-align: right; margin-bottom: 1em; }
+        nav a { color: #d2691e; margin-left: 1em; text-decoration: none; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rasoi Roots</h1>
+        <p>Your trusted source for premium spices and ingredients</p>
+    </header>
+    <nav>
+        <a href="login.html">Login/Signup</a>
+        <a href="#">Cart</a>
+    </nav>
+    <div class="container">
+        <h2>Our Products</h2>
+        <div class="products">
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=400&q=80" alt="Garam Masala">
+                <h3>Garam Masala</h3>
+                <p class="price">₹210 / 200g</p>
+                <label>Quantity: <input type="number" min="1" value="1"></label>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?auto=format&fit=crop&w=400&q=80" alt="Dhania Powder">
+                <h3>Dhania Powder</h3>
+                <p class="price">₹85 / 200g</p>
+                <label>Quantity: <input type="number" min="1" value="1"></label>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1519864621306-7600121c3e7e?auto=format&fit=crop&w=400&q=80" alt="Red Chilly Powder">
+                <h3>Red Chilly Powder</h3>
+                <p class="price">₹75 / 200g</p>
+                <label>Quantity: <input type="number" min="1" value="1"></label>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=400&q=80" alt="Turmeric Powder">
+                <h3>Turmeric Powder</h3>
+                <p class="price">₹80 / 200g</p>
+                <label>Quantity: <input type="number" min="1" value="1"></label>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80" alt="Cumin Seeds">
+                <h3>Cumin Seeds</h3>
+                <p class="price">₹90 / 200g</p>
+                <label>Quantity: <input type="number" min="1" value="1"></label>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1519864781811-2b8e3c3fda6b?auto=format&fit=crop&w=400&q=80" alt="Besan (Gram Flour)">
+                <h3>Besan (Gram Flour)</h3>
+                <p class="price">₹110 / 200g</p>
+                <label>Quantity: <input type="number" min="1" value="1"></label>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?auto=format&fit=crop&w=400&q=80" alt="Mustard Oil">
+                <h3>Mustard Oil</h3>
+                <p class="price">₹170 / 1kg</p>
+                <label>Quantity: <input type="number" min="1" value="1"></label>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
